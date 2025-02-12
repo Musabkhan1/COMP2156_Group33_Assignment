@@ -34,12 +34,15 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                echo 'Deploying Application...'
-                // Example: SCP Deployment (uncomment if needed)
-                // sh 'scp -r ./dist user@your-server:/var/www/app'
+       stage('Deploy') {
+           steps {
+               sh '''
+                echo "Starting deployment..."
+                scp -r ./dist musab@192.168.1.100:/var/www/COMP2156_Group33_Assignment
+                echo "Deployment complete!"
+              '''
             }
         }
+
     }
 }
