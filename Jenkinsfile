@@ -30,8 +30,8 @@ pipeline {
 
         stage('Test Python Scripts') {
             steps {
-                sh 'python3 TyCommits/helloWorld.py'
-                sh 'python3 TyCommits/sampleScript.py'
+                sh 'python3 Commits/helloWorld.py'
+                sh 'python3 Commits/sampleScript.py'
             }
         }
 
