@@ -9,3 +9,4 @@ The key benefits of DevOps in SDLC include:
 - **Scalability:** Cloud-based DevOps tools allow businesses to scale their applications easily.
 
 By adopting DevOps practices, organizations can deliver software faster, improve quality, and enhance customer satisfaction.
+DevOps improves CI/CD processes.
