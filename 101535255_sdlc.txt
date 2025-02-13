@@ -11,3 +11,4 @@ The key benefits of DevOps in SDLC include:
 By adopting DevOps practices, organizations can deliver software faster, improve quality, and enhance customer satisfaction.
 DevOps improves CI/CD processes.
 DevOps improves CI/CD processes.
+DevOps improves CI/CD processes.
