@@ -7,3 +7,4 @@ Key topics covered in this course include:
 - Infrastructure as Code (IaC) using Terraform and Ansible
 - Containerization with Docker and Kubernetes
 - Monitoring and Logging with Prometheus and Grafana
+Topics covered in COMP 3104.
