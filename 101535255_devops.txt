@@ -1,0 +1,9 @@
+COMP 3104 - DevOps is a course that introduces students to modern software development and IT operations practices. 
+It focuses on automation, continuous integration, continuous deployment (CI/CD), and cloud computing. 
+
+Key topics covered in this course include:
+- Version Control using Git and GitHub
+- CI/CD pipelines with GitHub Actions
+- Infrastructure as Code (IaC) using Terraform and Ansible
+- Containerization with Docker and Kubernetes
+- Monitoring and Logging with Prometheus and Grafana
