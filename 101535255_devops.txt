@@ -9,3 +9,4 @@ Key topics covered in this course include:
 - Monitoring and Logging with Prometheus and Grafana
 Topics covered in COMP 3104.
 Topics covered in COMP 3104.
+Topics covered in COMP 3104.
