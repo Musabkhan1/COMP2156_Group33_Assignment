@@ -1,1 +1,1 @@
-Pritesh Patel is teaching Devops.
+Pritesh Patel is teaching Devops. This is Devops Project.
