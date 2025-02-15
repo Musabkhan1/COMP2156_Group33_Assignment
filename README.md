@@ -19,3 +19,4 @@ The project utilizes GitHub Actions and Jenkins for automation.
 
 ## Branching Strategy
 Each member works on their own branch using the format `STUDENTID-Name` and merges via Pull Requests.
+Each member works on their own branch using the format `STUDENTID-Name` and merges via Pull Requests.
