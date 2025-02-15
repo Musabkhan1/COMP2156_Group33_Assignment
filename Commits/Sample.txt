@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 Student ID: 101501051
 Course: COMP2156 - DevOps
 Topic: DevOps CI/CD Pipeline
-=======
-Student ID: 101501051
-Course: COMP2156 - DevOps
-Topic: DevOps CI/CD Pipeline
->>>>>>> 101471924-SarabAnand
