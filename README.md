@@ -3,7 +3,7 @@
 ## Group Members
 - **Leader:** Musab Khan https://github.com/Musabkhan1
 - **Member 1:** Sarab Anand  https://github.com/SarabAnand1477
-- **Member 2:** Vraj Patel https://github.com/101488083
+- **Member 2:** Vraj-Patel https://github.com/101488083
 - **Member 3:** Quang Viet Ung https://github.com/quangvietung
 
 ## Project Description
