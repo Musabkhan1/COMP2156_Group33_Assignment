@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/101488083/comp2156/issues"
   },
-
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -27,8 +26,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "gh-pages": "^6.1.1"
+    "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
