@@ -1,0 +1,33 @@
+{
+  "name": "gp_33",
+  "version": "1.0.0",
+  "description": "DevOps Group Assignment for COMP2156",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --passWithNoTests",
+    "build": "echo 'Running Build Step'",
+    "deploy": "echo 'Deploying Application...'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Musabkhan1/COMP2156_Group33_Assignment.git"
+  },
+  "keywords": [
+    "DevOps",
+    "Jenkins",
+    "CI/CD"
+  ],
+  "author": "Musab Khan & Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Musabkhan1/COMP2156_Group33_Assignment/issues"
+  },
+  "homepage": "https://github.com/Musabkhan1/COMP2156_Group33_Assignment#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

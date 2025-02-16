@@ -1,0 +1,52 @@
+name: GitHub Actions CI/CD
+
+on: 
+  push:
+    branches:
+      - main  # Runs when you push to the main branch
+  pull_request:
+    branches:
+      - main  # Runs when a PR is created to the main branch
+
+jobs:
+  # 🔹 First Job: Debugging and Trigger Confirmation
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Triggered by ${{ github.event_name }} on branch ${{ github.ref }}."
+      - run: echo "Running on ${{ runner.os }} server hosted by GitHub."
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - run: echo "Repository ${{ github.repository }} cloned successfully."
+      - name: List repository files
+        run: ls ${{ github.workspace }}
+      - run: echo "Job Status: ${{ job.status }}"
+
+  # 🔹 Second Job: Install, Build, and Deploy
+  build-deploy:
+    runs-on: ubuntu-latest
+    needs: debug  # Runs after the debug job
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 23
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test -- --passWithNoTests  # Prevents errors if no tests exist
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        run: |
+          git config --global user.email "musabkhan1@users.noreply.github.com"
+          git config --global user.name "Musab Khan"
+          npm run deploy
